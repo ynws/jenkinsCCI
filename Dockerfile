@@ -7,6 +7,9 @@ RUN apt-get update && \
                     g++ \
                     cmake \
                     gcovr \
+                    cppcheck \
+                    doxygen \
+                    graphviz \
                     && \
     rm -rf /var/lib/apt/lists/*
 
